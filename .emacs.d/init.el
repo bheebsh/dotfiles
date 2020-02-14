@@ -68,3 +68,10 @@
 
 
 
+(setenv "PATH" (concat (getenv "PATH") ":/opt/texlive/2020/bin/x86_64-linux/"))  
+(setq exec-path (append exec-path '(":/opt/texlive/2020/bin/x86_64-linux")))
+
+
+;; setup auctex options
+(setq-default TeX-engine 'xetex)
+(setq-default TeX-PDF-mode t)
