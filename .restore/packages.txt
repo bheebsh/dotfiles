@@ -1,7 +1,6 @@
 alacritty
 brave
 dropbox
-emacs
 freerdp
 r
 remmina
@@ -13,6 +12,6 @@ otf-texgyre-pagella-math
 vim
 vulkan-intel
 vulkan-radeon
-i3-gaps
 polybar
 feh
+sublime-text
