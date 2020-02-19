@@ -138,9 +138,3 @@ ex ()
   fi
 }
 
-
-source ~/.bash_aliases
-
-# This changes caps lock key to ctrl - ctrl key remains 
-setxkbmap -option ctrl:nocaps
-
