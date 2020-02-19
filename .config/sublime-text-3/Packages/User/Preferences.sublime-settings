@@ -1,0 +1,13 @@
+{
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"default_line_endings": "unix",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Stata Enhanced"
+	],
+	"tab_size": 2,
+	"theme": "Material Dracula.sublime-theme",
+	"vintage_start_in_command_mode": true
+}
