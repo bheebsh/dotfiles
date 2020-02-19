@@ -144,7 +144,3 @@ source ~/.bash_aliases
 # This changes caps lock key to ctrl - ctrl key remains 
 setxkbmap -option ctrl:nocaps
 
-# Add TeXlive to path
-export PATH="${PATH}:/opt/texlive/2020/bin/x86_64-linux"
-export MANPATH="${MANPATH}:/opt/texlive/2020/texmf-dist/doc/man"
-export INFOPATH="${INFOPATH}:/opt/texlive/2020/texmf-dist/doc/info"
