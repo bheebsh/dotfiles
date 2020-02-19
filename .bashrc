@@ -138,3 +138,12 @@ ex ()
   fi
 }
 
+# useful replacements for common filepaths
+
+export dropbox=${HOME}/Dropbox
+export documents=${dropbox}/Documents
+export research=${documents}/research
+
+# This changes caps lock key to ctrl - ctrl key remains 
+setxkbmap -option ctrl:nocaps
+alias config='/usr/bin/git --git-dir=$HOME/Dropbox/Sync/dotfiles/ --work-tree=$HOME/'
