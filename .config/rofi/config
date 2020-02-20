@@ -13,3 +13,6 @@ rofi.color-urgent:  #282A36, #ea51b2, #282A36, #282A36, #ea51b2
 
 ! Set the desired separator style
 rofi.separator-style: solid
+
+! Change font
+rofi.font: "source code pro 10"

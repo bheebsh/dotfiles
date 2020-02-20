@@ -2,6 +2,7 @@
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"default_line_endings": "unix",
+	"font_face": "Source Code Pro",
 	"font_size": 9,
 	"ignored_packages":
 	[
