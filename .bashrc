@@ -139,11 +139,27 @@ ex ()
 }
 
 # useful replacements for common filepaths
-
 export dropbox=${HOME}/Dropbox
 export documents=${dropbox}/Documents
 export research=${documents}/research
+export website=${documents}/website
+export music=${dropbox}/Music
+export photos=${dropbox}/Pictures
 
 # This changes caps lock key to ctrl - ctrl key remains 
 setxkbmap -option ctrl:nocaps
+
+# Helpful aliases for git
+
+# This one is for keeping up with config files
 alias config='/usr/bin/git --git-dir=$HOME/Dropbox/Sync/dotfiles/ --work-tree=$HOME/'
+
+alias gc='git commit'
+alias ga='git add'
+alias gp='git push'
+alias gs='git status'
+
+# Add other helpful aliases
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ls -la'
