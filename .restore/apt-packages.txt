@@ -1,0 +1,10 @@
+alacritty
+freerdp2-x11
+r-base
+remmina
+steam
+vim
+texlive-full
+tex-gyre
+feh
+curl
