@@ -155,6 +155,8 @@ setxkbmap -option ctrl:nocaps
 alias config='/usr/bin/git --git-dir=$HOME/Dropbox/Sync/dotfiles/ --work-tree=$HOME/'
 
 alias gc='git commit'
+alias gcm='git commit -m '
+alias gca='git commit -a -m '
 alias ga='git add'
 alias gp='git push'
 alias gs='git status'
@@ -163,3 +165,6 @@ alias gs='git status'
 alias la='ls -a'
 alias ll='ls -l'
 alias lla='ls -la'
+
+# Copy file to clipboard
+alias clip-file='xclip -c > '
