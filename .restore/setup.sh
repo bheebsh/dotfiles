@@ -2,12 +2,7 @@
 
 # Setup script to restore installation
 
-# First, install dropbox manually
-# CLI for dropbox is annoying, so just download the .deb: 
-# https://www.dropbox.com/install-linux
-
-
-# Second, install regular packages
+# install packages
 
 ./.restore/apt-install.sh
 ./.restore/other-install.sh
