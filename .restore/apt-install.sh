@@ -4,4 +4,4 @@
 
 apt-get update
 
-cat .restore/apt-packages.txt | xargs apt-get install
+cat .restore/apt-packages.txt | xargs apt-get -y install
