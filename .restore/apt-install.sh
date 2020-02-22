@@ -4,6 +4,4 @@
 
 apt-get update
 
-apt-get install xargs 
-
-cat $HOME/.restore/packages.txt | xargs sudo apt-get install
+cat .restore/apt-packages.txt | xargs apt-get install
