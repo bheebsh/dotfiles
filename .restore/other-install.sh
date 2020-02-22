@@ -34,3 +34,18 @@ cd build
 ../configure --prefix=/usr --sysconfdir=/etc
 make
 sudo make install
+
+# iosevka font
+mkdir iosevka
+cd iosevka
+
+wget https://github.com/be5invis/Iosevka/releases/download/v2.3.3/01-iosevka-2.3.3.zip iosevka.zip
+unzip iosevka.zip
+
+cd ttf
+mkdir ~/.fonts/
+mv * ~/.fonts/
+fc-cache
+
+cd ..
+rm -rf iosevka/* 
