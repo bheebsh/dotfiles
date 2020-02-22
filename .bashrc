@@ -152,7 +152,7 @@ setxkbmap -option ctrl:nocaps
 # Helpful aliases for git
 
 # This one is for keeping up with config files
-alias config='/usr/bin/git --git-dir=$HOME/Dropbox/Sync/dotfiles/ --work-tree=$HOME/'
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME/'
 
 alias gc='git commit'
 alias gcm='git commit -m '
