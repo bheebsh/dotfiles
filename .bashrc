@@ -168,3 +168,10 @@ alias lla='ls -la'
 
 # Copy file to clipboard
 alias clip-file='xclip -c > '
+
+
+# Alias for connecting to duke VPN
+alias dukevpn='sudo openconnect portal.duke.edu'
+
+
+alias ssri-vm='read -s -p "NetID:" bh149 ; echo ; read -s -p "Password:" password; xfreerdp /f /v:ssri-share-pap3.oit.duke.edu /d:WIN /u:$bh149 /g:oit-srdsgw-pap1.win.duke.edu /p:$password'
