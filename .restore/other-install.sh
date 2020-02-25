@@ -36,19 +36,19 @@ make
 sudo make install
 
 # iosevka font
-mkdir iosevka
-cd iosevka
+#mkdir iosevka
+#cd iosevka
 
-wget https://github.com/be5invis/Iosevka/releases/download/v2.3.3/01-iosevka-2.3.3.zip iosevka.zip
-unzip iosevka.zip
+#wget https://github.com/be5invis/Iosevka/releases/download/v2.3.3/01-iosevka-2.3.3.zip iosevka.zip
+#unzip iosevka.zip
 
-cd ttf
-mkdir ~/.fonts/
-mv * ~/.fonts/
-fc-cache
+#cd ttf
+#mkdir ~/.fonts/
+#mv * ~/.fonts/
+#fc-cache
 
-cd ..
-rm -rf iosevka/* 
+#cd ..
+#rm -rf iosevka/* 
 
 # Dropbox
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
