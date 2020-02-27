@@ -7,6 +7,9 @@
 ./.restore/apt-install.sh
 ./.restore/other-install.sh
 
+# Set dropbox to autostart
+dropbox autostart y
+
 # Next setup directories
 rm -r Documents Music Pictures 
 

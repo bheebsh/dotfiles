@@ -1,3 +1,4 @@
+nautilus-dropbox
 rxvt-unicode
 freerdp2-x11
 r-base

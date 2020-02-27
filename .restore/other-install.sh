@@ -50,6 +50,3 @@ sudo make install
 #cd ..
 #rm -rf iosevka/* 
 
-# Dropbox
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
-.dropbox-dist/dropboxd
