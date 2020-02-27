@@ -1,0 +1,11 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"file_include_patterns": ["_pages/*", "_publications/*", "_teaching/*", 
+																	"_working_papers/*", "_in_progress/*", 
+																	"files/*", "_config.yml"]
+		}
+	]
+}

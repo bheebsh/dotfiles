@@ -12,7 +12,7 @@
 			[
 			],
 			"name": "job-market",
-			"path": "${documents}/job-market"
+			"path": "."
 		}
 	]
 }
