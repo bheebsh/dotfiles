@@ -167,7 +167,7 @@ alias ll='ls -l'
 alias lla='ls -la'
 
 # Copy file to clipboard
-alias clip-file='xclip -c > '
+alias clip-file='xclip -sel clip > '
 
 
 # Alias for connecting to duke VPN
