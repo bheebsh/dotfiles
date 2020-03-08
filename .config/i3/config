@@ -174,10 +174,11 @@ bar {
     }
 }
 # Set wallpaper
-exec --no-startup-id nitrogen --restore
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/1216988.jpg
 
 # Change title bar of windows
 for_window [class="^.*"] border pixel 3
+new_window 1pixel
 
 # Set gaps between windows
 gaps inner 15
