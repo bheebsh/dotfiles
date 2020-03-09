@@ -176,5 +176,7 @@ alias dukevpn='sudo openconnect portal.duke.edu'
 
 alias ssri-vm='read -s -p "NetID:" bh149 ; echo ; read -s -p "Password:" password; xfreerdp /f /v:ssri-share-pap3.oit.duke.edu /d:WIN /u:$bh149 /g:oit-srdsgw-pap1.win.duke.edu /p:$password'
 
+alias set-trackpad='xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.6'
+alias set-mx2s='xinput set-prop "MX Master 2S Mouse" "libinput Accel Speed" 1.0'
 
 export PATH=/usr/local/stata16:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
