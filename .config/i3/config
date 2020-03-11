@@ -176,6 +176,9 @@ bar {
 # Set wallpaper
 exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/1216988.jpg
 
+# Start Dropbox
+exec --no-startup-id dropbox start
+
 # Change title bar of windows
 for_window [class="^.*"] border pixel 3
 new_window 1pixel
