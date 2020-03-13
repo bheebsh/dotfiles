@@ -7,7 +7,7 @@ rofi.color-enabled: true
 rofi.color-window:  #282A36, #3a3c4e, #282936
 
 ! Property Name     BG       FG       BG-alt   Head-BG  Head-FG
-rofi.color-normal:  #282A36, #e9e9f4, #282A36, #282A36, #f7f7fb
+rofi.color-normal:  #282A36, #e9e9f4, #282A36, #7E7F86, #f7f7fb
 rofi.color-active:  #282A36, #62d6e8, #282A36, #282A36, #62d6e8
 rofi.color-urgent:  #282A36, #ea51b2, #282A36, #282A36, #ea51b2
 
