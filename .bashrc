@@ -177,5 +177,9 @@ alias ssri-vm='read -s -p "NetID:" user ; echo ; read -s -p "Password:" password
 alias set-trackpad='xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.6'
 alias set-mx2s='xinput set-prop "MX Master 2S Mouse" "libinput Accel Speed" 1.0'
 
+# Open LoL
+alias league='nohup lutris lutris:rungame/league-of-legends &>/dev/null &'
+alias lol-fix="sudo bash -c 'echo "abi.vsyscall = 0" >> /etc/sysctl.config && sysctl -p'"
+
 export PATH=/usr/local/stata16:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
