@@ -1,0 +1,13 @@
+" Type :help nv for help.
+
+set nominimap
+set nomenu
+
+let mapleader=<Space>
+
+" Toggle appearance of window 
+nnoremap <leader>vm :ToggleMenu<CR>
+
+" Project management keybinds
+nnoremap <leader>qp :CloseProject<CR>
+nnoremap <leader>op :ProjectManager action=switch<CR>
