@@ -6,9 +6,12 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
-		"Stata Enhanced"
+		"Six",
+		"Stata Enhanced",
+		"Vintage",
+		"Vintageous"
 	],
+	"neovintageous_build_version": 11100,
 	"tab_size": 2,
-	"theme": "Material Dracula.sublime-theme",
-	"vintage_start_in_command_mode": true
+	"theme": "Material Dracula.sublime-theme"
 }
