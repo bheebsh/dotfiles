@@ -2,8 +2,17 @@
 
 set nominimap
 set nomenu
+set ignorecase
 
 let mapleader=<Space>
+
+" Keybind to add new keybinds
+nnoremap <leader>nk Onnoremap <lt>leader> 
+
+" Add whitespace
+nnoremap <leader><leader> i<Space><Esc> 
+nnoremap <leader>nn o<Esc>
+
 
 " Toggle appearance of window 
 nnoremap <leader>vm :ToggleMenu<CR>
@@ -11,3 +20,25 @@ nnoremap <leader>vm :ToggleMenu<CR>
 " Project management keybinds
 nnoremap <leader>qp :CloseProject<CR>
 nnoremap <leader>op :ProjectManager action=switch<CR>
+
+" Latex editing keybinds
+nnoremap <leader>rcc i \cite{:LatexFillAll<CR>
+nnoremap <leader>rcp i \citep{:LatexFillAll<CR>
+nnoremap <leader>rca i \citeauthor{:LatexFillAll<CR>
+nnoremap <leader>re  i \eqref{:LatexFillAll<CR>eq
+nnoremap <leader>rt  i \ref{:LatexFillAll<CR>tab
+nnoremap <leader>rf  i \ref{:LatexFillAll<CR>fig
+nnoremap <leader>rs  i \ref{:LatexFillAll<CR>sec
+
+" Insert labels in latex
+nnoremap <leader>ls  ils:InsertBestCompletion<CR>
+nnoremap <leader>lt  ilt:InsertBestCompletion<CR>
+nnoremap <leader>lf  ilf:InsertBestCompletion<CR>
+nnoremap <leader>le  ile:InsertBestCompletion<CR>
+
+nnoremap <leader>in	 i\input{
+nnoremap <leader>it	 i\input{tables/
+nnoremap <leader>et	 iet:InsertBestCompletion<CR><Esc>
+nnoremap <leader>ec	 iec:InsertBestCompletion<CR><Esc>
+
+
