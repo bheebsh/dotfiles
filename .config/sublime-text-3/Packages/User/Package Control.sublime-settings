@@ -3,6 +3,10 @@
 	"in_process_packages":
 	[
 	],
+	"install_prereleases":
+	[
+		"LaTeXTools"
+	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
