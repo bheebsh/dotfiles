@@ -399,7 +399,7 @@
 
 		// General settings:
 		// See README or third-party documentation
-		"program" : "xelatex",
+		"program" : "pdflatex",
 
 		// (built-ins): true shows the log of each command in the output panel
 		"display_log" : false,
