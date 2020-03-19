@@ -145,6 +145,7 @@ export research=${documents}/research
 export website=${documents}/website
 export music=${dropbox}/Music
 export photos=${dropbox}/Pictures
+export st3=~/.config/sublime-text-3/Packages/User
 
 # This changes caps lock key to ctrl - ctrl key remains 
 setxkbmap -option ctrl:nocaps
