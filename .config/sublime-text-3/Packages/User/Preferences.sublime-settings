@@ -13,5 +13,6 @@
 	],
 	"neovintageous_build_version": 11100,
 	"tab_size": 2,
-	"theme": "Material Dracula.sublime-theme"
+	"theme": "Material Dracula.sublime-theme",
+	"vintageous_use_ctrl_keys": false
 }
