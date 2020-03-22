@@ -40,5 +40,6 @@ nnoremap <leader>in	 i\input{
 nnoremap <leader>it	 i\input{tables/
 nnoremap <leader>et	 iet:InsertBestCompletion<CR><Esc>
 nnoremap <leader>ec	 iec:InsertBestCompletion<CR><Esc>
+nnoremap <leader>en	 ien:InsertBestCompletion<CR><Esc>
 
 
