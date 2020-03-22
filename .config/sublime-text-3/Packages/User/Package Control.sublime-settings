@@ -9,8 +9,10 @@
 	],
 	"installed_packages":
 	[
+		"Anaconda",
 		"BracketHighlighter",
 		"Dracula Color Scheme",
+		"Edit Command Palette",
 		"File Navigator",
 		"LaTeXTools",
 		"Materialize",
@@ -20,6 +22,7 @@
 		"ProjectManager",
 		"SAS Syntax and Theme",
 		"Sublime Files",
+		"SublimeREPL",
 		"Whitespace"
 	]
 }
