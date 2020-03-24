@@ -16,7 +16,7 @@
                         {
                             "command": "repl_open",
                             "caption": "Python - Anaconda",
-                            "id": "repl_python",
+                            "id": "repl_python_conda",
                             "mnemonic": "p",
                             "args": {
                                 "type": "subprocess",
@@ -31,7 +31,7 @@
                         {
                             "command": "repl_open",
                             "caption": "IPython - Anaconda",
-                            "id": "repl_python_ipython",
+                            "id": "repl_python_ipython_conda",
                             "mnemonic": "p",
                             "args": {
                                 "type": "subprocess",
