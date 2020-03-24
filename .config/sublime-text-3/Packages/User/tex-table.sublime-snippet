@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-	\begin{table}
-		\centering
-		\caption{${1:cap}}
-		\label{tab:${2:lab}}
-		\input{tables/${3:tab}}
-	\end{table}
+\begin{table}
+	\centering
+	\caption{${1:cap}}
+	\label{tab:${2:lab}}
+	\input{tables/${3:tab}}
+\end{table}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>et</tabTrigger>
