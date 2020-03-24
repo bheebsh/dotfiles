@@ -185,18 +185,3 @@ alias league='nohup lutris lutris:rungame/league-of-legends &>/dev/null &'
 export PATH=/usr/local/stata16:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/olykos/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/olykos/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/olykos/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/olykos/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
