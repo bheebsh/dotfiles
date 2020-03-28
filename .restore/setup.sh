@@ -3,9 +3,7 @@
 # Setup script to restore installation
 
 # install packages
-
-./.restore/apt-install.sh
-./.restore/other-install.sh
+yay -Syu - < ~/.restore/arch-packages.txt
 
 # Set dropbox to autostart
 dropbox autostart y

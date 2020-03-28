@@ -3,10 +3,8 @@ otf-texgyre-pagella-math
 texlive-most
 sublime-text
 ttf-iosevka
-alacritty
+kitty
 wine
-feh
-i3-gaps
 brave
 lib32-vulkan-icd-loader
 vulkan-icd-loader
@@ -16,5 +14,3 @@ spotify
 freerdp
 r
 xclip
-network-manager-applet
-rofi
