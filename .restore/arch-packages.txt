@@ -14,3 +14,4 @@ spotify
 freerdp
 r
 xclip
+remmina
