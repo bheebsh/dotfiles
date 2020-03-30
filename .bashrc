@@ -172,7 +172,7 @@ alias clip-file='xclip -sel clip > '
 
 # Connect to Duke VPN and VM 
 alias dukevpn='sudo openconnect portal.duke.edu'
-alias ssri-vm='read -s -p "NetID:" user ; echo ; read -s -p "Password:" password; xfreerdp -grab-keyboard /f /v:ssri-share-pap3.oit.duke.edu /d:WIN /u:$user /g:oit-srdsgw-pap1.win.duke.edu -grab-keyboard /p:$password </dev/null &>/dev/null &'
+alias ssri-vm='read -s -p "NetID:" user ; echo ; read -s -p "Password:" password; xfreerdp /f /v:ssri-share-pap3.oit.duke.edu /d:WIN /u:$user /g:oit-srdsgw-pap1.win.duke.edu /p:$password </dev/null &>/dev/null &'
 
 # Set peripherals for laptop
 alias set-trackpad='xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.6'
