@@ -168,7 +168,7 @@ alias ll='ls -l'
 alias lla='ls -la'
 
 # Copy file to clipboard
-alias clip-file='xclip -sel clip > '
+alias clip-file='xclip -sel clip < '
 
 # Connect to Duke VPN and VM 
 alias dukevpn='sudo openconnect portal.duke.edu'
