@@ -17,3 +17,8 @@ ln -s Dropbox/Music  Music
 
 # Change default shell to fish
 chsh -s /bin/fish
+
+# git setup
+git config --global status.showUntrackedFiles no
+git config --global user.name "Benjamin Heebsh"
+git config --global user.email "benjamin.heebsh@gmail.com"
