@@ -1,5 +1,4 @@
 brave
-dropbox
 sublime-text
 kitty
 wine
@@ -15,3 +14,4 @@ vlc
 otf-texgyre-pagella-math
 r
 texlive-most
+fish

@@ -3,7 +3,7 @@
 # Setup script to restore installation
 
 # install packages
-yay -Syu - < ~/.restore/arch-packages.txt
+yay -Syu --needed - < ~/.restore/arch-packages.txt
 
 # Set dropbox to autostart
 dropbox autostart y
@@ -15,3 +15,5 @@ ln -s Dropbox/Documents Documents
 ln -s Dropbox/Pictures Pictures
 ln -s Dropbox/Music  Music 
 
+# Change default shell to fish
+chsh -s /bin/fish
