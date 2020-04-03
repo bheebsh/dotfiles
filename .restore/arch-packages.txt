@@ -15,3 +15,6 @@ otf-texgyre-pagella-math
 r
 texlive-most
 fish
+vim
+plasma5-applets-virtual-desktop-bar-git
+xorg-xinput
