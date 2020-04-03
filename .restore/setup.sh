@@ -5,9 +5,6 @@
 # install packages
 yay -Syu --needed - < ~/.restore/arch-packages.txt
 
-# Set dropbox to autostart
-dropbox autostart y
-
 # Next setup directories
 rm -r Documents Music Pictures 
 
