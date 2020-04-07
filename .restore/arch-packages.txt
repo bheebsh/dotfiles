@@ -9,6 +9,8 @@ nvidia
 spotify
 freerdp
 remmina
+wine-lol
+wine-lol-glibc
 xclip
 vlc
 otf-texgyre-pagella-math
