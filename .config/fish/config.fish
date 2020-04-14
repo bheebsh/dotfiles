@@ -28,3 +28,5 @@ set -x music $dropbox/Music
 set -x photos $dropbox/Pictures
 set -x programming $documents/programming
 set -x st3 ~/.config/sublime-text-3/Packages/User
+
+alias r 'radian'
