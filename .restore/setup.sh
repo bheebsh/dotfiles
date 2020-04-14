@@ -24,3 +24,5 @@ sudo apt install sublime-text
 
 git clone https://github.com/bheebsh/sublime-text-config.git ~/.config/sublime-text-3/Packages/User
 
+# Set python correctly
+ln -s /usr/bin/python /usr/bin/python3.8
