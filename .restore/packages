@@ -5,3 +5,6 @@ fish
 vim
 evince
 python3.8
+libcurl-openssl-dev
+libxml2-dev
+libssl-dev
