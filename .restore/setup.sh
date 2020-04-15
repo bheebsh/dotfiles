@@ -28,3 +28,4 @@ git clone https://github.com/bheebsh/sublime-text-config.git ~/.config/sublime-t
 ln -s /usr/bin/python3 /usr/bin/python
 ln -s /usr/bin/pip3 /usr/bin/pip
 
+sudo -H pip install -U radian 

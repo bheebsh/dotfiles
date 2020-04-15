@@ -30,3 +30,7 @@ set -x programming $documents/programming
 set -x st3 ~/.config/sublime-text-3/Packages/User
 
 alias r 'radian'
+
+if test -e /usr/local/stata
+  set PATH $PATH /usr/local/stata
+end

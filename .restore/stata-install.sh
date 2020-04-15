@@ -9,21 +9,27 @@
 # Otherwise, just update the corresponding line
 version=16
 localdir="/usr/local/stata${version}"
-usr="olykos"
 
-cd "/home/${usr}/Downloads"
+cd "$HOME/.restore"
+
+if [ -d statainstall ]; then
+	rm -rf statainstall
+fi
+
 mkdir statainstall
 tar -xvzf Stata${version}Linux64.tar.gz -C statainstall
 
-
-
 if [ -d "$localdir" ]; then
-	rm -r $localdir
+	rm -rf $localdir
 fi
 
 mkdir "$localdir"
 cd "$localdir"
 
-"/home/${usr}/Downloads/statainstall/install"
+"${HOME}/.restore/statainstall/install"
 
 ./stinit
+
+ln -s "$localdir" /usr/local/stata
+
+rm -rf "${HOME}/.restore/statainstall"
