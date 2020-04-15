@@ -4,7 +4,8 @@ texlive
 fish
 vim
 evince
-python3.8
+python3
 libcurl-openssl-dev
 libxml2-dev
 libssl-dev
+pip3
