@@ -34,3 +34,5 @@ alias r 'radian'
 if test -e /usr/local/stata
   set PATH $PATH /usr/local/stata
 end
+
+cd ~
