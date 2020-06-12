@@ -16,14 +16,14 @@ if [ -d statainstall ]; then
 	rm -rf statainstall
 fi
 
-mkdir statainstall
+sudo mkdir statainstall
 tar -xvzf Stata${version}Linux64.tar.gz -C statainstall
 
 if [ -d "$localdir" ]; then
 	rm -rf $localdir
 fi
 
-mkdir "$localdir"
+sudo mkdir "$localdir"
 cd "$localdir"
 
 "${HOME}/.restore/statainstall/install"
