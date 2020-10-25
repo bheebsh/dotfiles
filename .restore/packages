@@ -5,7 +5,7 @@ fish
 vim
 evince
 python3
-libcurl-openssl-dev
+libcurl4-openssl-dev
 libxml2-dev
 libssl-dev
-pip3
+pip
