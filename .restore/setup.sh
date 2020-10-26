@@ -15,3 +15,7 @@ sudo -H pip install -U radian
 # Install Stata
 wget  -P ~/.restore/ "https://www.dropbox.com/s/r5s0pk3qduq1j67/Stata16Linux64.tar.gz?dl=0"
 sudo -H bash ~/.restore/stata-install.sh
+
+# Install Julia
+wget https://julialang-s3.julialang.org/bin/linux/x64/1.5/julia-1.5.2-linux-x86_64.tar.gz
+tar xzvf julia-1.5.2-linux-x86_64.tar.gz
