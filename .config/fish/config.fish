@@ -27,7 +27,6 @@ set -x website $documents/website
 set -x music $dropbox/Music
 set -x photos $dropbox/Pictures
 set -x programming $documents/programming
-set -x st3 ~/.config/sublime-text-3/Packages/User
 
 alias r 'radian'
 
@@ -35,4 +34,4 @@ if test -e /usr/local/stata
   set PATH $PATH /usr/local/stata
 end
 
-cd ~
+set PATH $PATH /home/bheebsh/.local/bin
