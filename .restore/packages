@@ -1,11 +1,3 @@
 xclip
 r-base
-texlive
-fish
-vim
-evince
-python3
 libcurl4-openssl-dev
-libxml2-dev
-libssl-dev
-pip
