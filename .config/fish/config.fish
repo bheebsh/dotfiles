@@ -33,5 +33,3 @@ alias r 'radian'
 if test -e /usr/local/stata
   set PATH $PATH /usr/local/stata
 end
-
-set PATH $PATH /home/bheebsh/.local/bin
