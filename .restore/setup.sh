@@ -21,3 +21,10 @@ cd /opt
 wget https://julialang-s3.julialang.org/bin/linux/x64/1.5/julia-1.5.2-linux-x86_64.tar.gz
 tar xzvf julia-1.5.2-linux-x86_64.tar.gz
 ln -s /opt/julia-1.5.2/bin/julia /usr/local/bin/julia
+
+# Install NeoVim
+wget  https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz
+tar -xzvf nvim-linux64.tar.gz
+ln -s /opt/nvim-linux64/bin/nvim /usr/local/bin/nvim
+
+rm *.tar.gz
