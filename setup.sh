@@ -34,6 +34,7 @@ yay visual-studio-code-bin
 yay discord
 yay steam
 yay spotify
+yay dropbox
 
 
 # aesthetic stuff
