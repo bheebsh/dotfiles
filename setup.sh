@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 
-# download yay
-sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ..
-rm -r yay
+## Add RPM Fusion repositories
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # terminal
-sudo pacman -S kitty
+sudo dnf install kitty
 
 # git
 git config --global user.email "bheebsh.research@gmail.com" 
@@ -22,23 +17,45 @@ sudo pacman -S exfat-utils fuse-exfat a52dec faac faad2 flac jasper lame \
 			  libdvdnav gmtk dvd+rw-tools dvdauthor dvgrab 
 
 # statistical stuff
-sudo pacman -S r python-pipx
+sudo dnf install R-core pipx
 pipx ensurepath
 pipx install uv
 pipx install radian
 
-# software 
-yay -a 1password
-yay zen-browser-bin
-yay visual-studio-code-bin
-yay discord
-yay steam
-yay spotify
-yay dropbox
+# VS code
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc &&
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+
+dnf check-update &&
+sudo dnf install code # or code-insiders
+
+# positron
+# download from: https://positron.posit.co/download.html
+
+### software 
+
+# 1password
+sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
+sudo sh -c 'echo -e "[1password]\nname=1Password Stable Channel\nbaseurl=https://downloads.1password.com/linux/rpm/stable/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=\"https://downloads.1password.com/linux/keys/1password.asc\"" > /etc/yum.repos.d/1password.repo'
+sudo dnf install 1password
+
+# brave browser
+sudo dnf install dnf-plugins-core
+
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+
+sudo dnf install brave-browser
+
+
+sudo dnf install discord
+sudo dnf install steam
+sudo dnf install lpf-spotify-client
+sudo dnf install dropbox
 
 
 # aesthetic stuff
-sudo pacman -S ttf-fira-code ttf-cascadia-code
+sudo dnf install fira-code-fonts cascadia-code-fonts
+
 
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 
@@ -47,6 +64,3 @@ git clone https://github.com/eza-community/eza-themes.git ~/.config/eza-themes/
 mkdir -p ~/.config/eza
 ln -sf -T "~/.config/eza-themes/themes/catpuccin-mocha.yml" ~/.config/eza/theme.yml
 
-# move configs to the right place
-cp -r kitty/ ~/.config/
-cp -r fish/ ~/.config/
