@@ -11,10 +11,7 @@ git config --global user.email "bheebsh.research@gmail.com"
 git config --global user.name "bheebsh"
 
 # media codecs
-sudo pacman -S exfat-utils fuse-exfat a52dec faac faad2 flac jasper lame \
-			  libdca libdv gst-libav libmad libmpeg2 libtheora libvorbis \
-			  libxv wavpack x264 xvidcore libdvdcss libdvdread \
-			  libdvdnav gmtk dvd+rw-tools dvdauthor dvgrab 
+sudo dnf install libavcodec-freeworld intel-media-driver
 
 # statistical stuff
 sudo dnf install R-core pipx
